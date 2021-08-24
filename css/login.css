@@ -1,3 +1,43 @@
+/*------------MAin------------*/
+
+#main-panel{
+    width: 100%;
+    height: 100%;
+    display:flex;
+}
+
 #login-panel{
+    width: 50%;
+    height: 100%;
     background-color: var(--color-dark-default);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-panel{
+    width: 50%;
+    height: 100%;
+    background-color: var(--color-dark-default);
+    background-image: url(../images/logo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#login-panel > #form-panel{
+    width: 70%;
+    height: 50%;
+    background-color: aquamarine;
+}
+
+#form-panel > #title-panel{
+    width: 100%;
+    height: 20%;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
