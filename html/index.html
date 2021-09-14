@@ -18,7 +18,7 @@
             <div class="animation-up" id="form-panel">
                 <div id="title-panel">
                     <h2>Login</h2>
-                    <a href="#">Cadastre-se</a>
+                    <a id="cadastro-button" id="login-button" onclick="document.getElementById('cadastro-panel').style.display = 'flex';document.getElementById('login-panel').style.display = 'none'" href="#">Cadastre-se</a>
                 </div>
                 <div id="content-panel">
                     <form id="form-login">
@@ -27,6 +27,31 @@
                         <label for="senha">Senha</label>
                         <input placeholder="Digite sua senha" class="input-field" type="password" name="senha" id="senha">
                         <button type="submit">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="cadastro-panel">
+            <div class="animation-up" id="form-panel">
+                <div id="title-panel">
+                    <h2>Cadastro</h2>
+                    <a id="login-button" onclick="document.getElementById('login-panel').style.display = 'flex';document.getElementById('cadastro-panel').style.display = 'none'" href="#">Login</a>
+                </div>
+                <div id="content-panel">
+                    <form id="form-login">
+                        <label for="nome">Nome</label>
+                        <input placeholder="Digite seu nome" class="input-field" type="text" name="nome" id="nome">
+                        <label for="cpf">CPF</label>
+                        <input placeholder="Digite seu cpf" class="input-field" type="number" name="cpf" id="cpf">
+                        <label for="email">E-mail</label>
+                        <input placeholder="Digite seu e-mail" class="input-field" type="email" name="email" id="email">
+                        <label for="data">Data de nascimento</label>
+                        <input placeholder="Digite sua data de nascimento" class="input-field" type="date" name="data" id="data">
+                        <label for="senha">Senha</label>
+                        <input placeholder="Digite sua senha" class="input-field" type="password" name="senha" id="senha">
+                        <label for="senhaC">Confirme sua senha</label>
+                        <input placeholder="Confirme sua senha" class="input-field" type="password" name="senhaC" id="senhaC">
+                        <button type="submit">Cadastrar</button>
                     </form>
                 </div>
             </div>
