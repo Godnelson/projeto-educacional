@@ -92,12 +92,29 @@
     );
     border-radius: 5px;
     color: white;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 #form-login > button:hover{
     background: linear-gradient(135deg,#B443CC,#9D00C4,#B443CC);
     transform: scale(1.02);
-    transition: 0.4s;
+    transition: 0.5s;
     color: black;
+}
+
+@keyframes up{
+    from{
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.animation-up{
+    animation-name: up;
+    animation-duration: 1500ms;
+    animation-fill-mode: backwards;
 }
