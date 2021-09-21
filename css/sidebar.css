@@ -1,0 +1,12 @@
+#logo_side>img {
+    width: 80%;
+    margin: 15px;
+}
+
+#logo_side {
+    background-color: white;
+}
+
+#logo_side>p {
+    animation-duration: 800ms;
+}
