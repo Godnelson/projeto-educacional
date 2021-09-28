@@ -3,7 +3,7 @@
 #main-side {
     height: 100%;
     width: var(--width_barside);
-    background-color: brown;
+    background-color: white;
     justify-content: start;
 }
 
@@ -16,11 +16,11 @@ main {
 main>#main-header {
     width: 100%;
     height: var(--height_header);
-    background-color: grey;
+    background-color: white;
 }
 
 main>#main-content {
     width: 100%;
     height: calc(100% - var(--height_header));
-    background-color: orange;
+    background-color: #EEE;
 }

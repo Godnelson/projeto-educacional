@@ -10,3 +10,8 @@
 #logo_side>p {
     animation-duration: 800ms;
 }
+
+.lista {
+    width: 100%;
+    height: 70px;
+}
